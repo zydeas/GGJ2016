@@ -99,7 +99,9 @@ scale = 0.1+(max(y-horizon_y,0)/(room_height-horizon_y))*horizon_y_factor;
 
 //scale = floor(scale*10)/10;
 
-draw_sprite_ext(sprite_index,image_index,drawx,y,scale,scale,0,c_white,1);
+var color = make_colour_hsv(255,255,255*scale);
+
+draw_sprite_ext(sprite_index,image_index,drawx,y,scale,scale,0,color,1);
 </string>
           </argument>
         </arguments>

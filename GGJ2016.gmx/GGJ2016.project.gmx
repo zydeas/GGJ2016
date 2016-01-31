@@ -125,6 +125,7 @@
     <object>objects\mom_obj</object>
     <object>objects\obj_bgsound_controller</object>
     <object>objects\obj_win_room</object>
+    <object>objects\color_parent_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\main_menu_rm</room>

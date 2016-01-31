@@ -77,7 +77,7 @@ global.spiritGrab = 0;
             <kind>1</kind>
             <string>if(global.has_won)
 {
-    if(audio_is_playing(snd_footsteps_1)
+    if(audio_is_playing(snd_footsteps_1))
     {
         audio_stop_sound(snd_footsteps_1);
     }
